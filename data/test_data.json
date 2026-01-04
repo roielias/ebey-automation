@@ -1,0 +1,23 @@
+[
+  {
+    "test_name": "search_shoes_under_budget",
+    "search_query": "shoes",
+    "max_price": 220,
+    "items_limit": 5,
+    "budget_per_item": 220
+  },
+  {
+    "test_name": "search_laptop_under_budget",
+    "search_query": "laptop",
+    "max_price": 500,
+    "items_limit": 3,
+    "budget_per_item": 500
+  },
+  {
+    "test_name": "search_headphones_under_budget",
+    "search_query": "headphones",
+    "max_price": 100,
+    "items_limit": 4,
+    "budget_per_item": 100
+  }
+]

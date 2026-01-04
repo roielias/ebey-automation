@@ -1,0 +1,12 @@
+test_cases:
+  - test_name: search_watches_under_budget
+    search_query: watch
+    max_price: 150
+    items_limit: 5
+    budget_per_item: 150
+  
+  - test_name: search_phone_cases_under_budget
+    search_query: phone case
+    max_price: 50
+    items_limit: 5
+    budget_per_item: 50
