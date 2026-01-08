@@ -14,6 +14,29 @@
 
 ---
 
+### 2. דוחות וצילומי מסך / Reports & Screenshots
+
+**בגיטהאב כלולים:**
+- ✅ דוגמאות צילומי מסך: `screenshots/sample_*.png`
+- ✅ דוח HTML לדוגמה: `reports/sample_report.html`
+- ✅ הוראות ייצור דוחות מלאים: ראה `REPORTS_SUBMISSION_GUIDE.md`
+
+**איך המעריך יכול לראות דוחות מלאים:**
+```bash
+# הרץ את הבדיקות
+pytest tests/ -v --alluredir=allure-results --html=reports/report.html
+
+# צור דוח Allure
+allure serve allure-results
+```
+
+**אופציונלי - קישור לדוחות מלאים:**
+```
+[אם העלית לגוגל דרייב/OneDrive, הוסף קישור כאן]
+```
+
+---
+
 ## 📋 מסמכי תיעוד / Documentation
 
 ### README.md

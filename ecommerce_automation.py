@@ -2,8 +2,9 @@
 E-commerce Automation Service
 Main service class implementing core automation functions
 """
-from typing import List
+from typing import List, Optional
 from playwright.sync_api import Page
+from pages.login_page import LoginPage
 from pages.search_page import SearchPage
 from pages.product_page import ProductPage
 from pages.cart_page import CartPage
@@ -19,14 +20,16 @@ class EcommerceAutomation:
     Following Single Responsibility Principle and OOP best practices
     """
     
-    def __init__(self, page: Page):
+    def __init__(self, page: Page, auto_authenticate: bool = True):
         """
         Initialize automation service
         
         Args:
             page: Playwright page instance
+            auto_authenticate: Whether to automatically authenticate as guest
         """
         self.page = page
+        self.login_page = LoginPage(page)
         self.search_page = SearchPage(page)
         self.product_page = ProductPage(page)
         self.cart_page = CartPage(page)
@@ -35,6 +38,49 @@ class EcommerceAutomation:
         logger.info(f"Initializing E-commerce Automation for {Config.BASE_URL}")
         self.page.goto(Config.BASE_URL)
         self.page.wait_for_load_state("networkidle")
+        
+        # Authenticate if requested
+        if auto_authenticate:
+            self.authenticate()
+    
+    def authenticate(self, username: Optional[str] = None, password: Optional[str] = None) -> bool:
+        """
+        Authenticate user (login or guest mode)
+        
+        Core Function 0: Authentication
+        
+        Args:
+            username: Optional username for login. If None, uses guest mode
+            password: Optional password for login
+            
+        Returns:
+            True if authentication successful
+            
+        Example:
+            # Guest mode (default)
+            automation.authenticate()
+            
+            # Login with credentials
+            automation.authenticate("user@example.com", "password123")
+        """
+        logger.info("="*80)
+        logger.info("CORE FUNCTION 0: authenticate")
+        logger.info("="*80)
+        
+        if username and password:
+            # Login with credentials
+            success = self.login_page.login(username, password)
+            if success:
+                logger.info("✓ Authentication successful (logged in)")
+            else:
+                logger.warning("✗ Authentication failed - continuing as guest")
+                success = self.login_page.login_as_guest()
+        else:
+            # Guest mode
+            success = self.login_page.login_as_guest()
+        
+        logger.info("="*80)
+        return success
     
     def search_items_by_name_under_price(
         self, 

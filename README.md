@@ -20,6 +20,7 @@ A comprehensive E2E automation framework for testing e-commerce websites (eBay),
 ```
 pages/
 ├── base_page.py         # BasePage - פונקציות בסיס לכל העמודים
+├── login_page.py        # LoginPage - הזדהות ואימות משתמש
 ├── search_page.py       # SearchPage - לוגיקת חיפוש וסינון
 ├── product_page.py      # ProductPage - פעולות על עמוד מוצר
 └── cart_page.py         # CartPage - ניהול וולידציה של סל קניות
@@ -47,6 +48,7 @@ e2e_automation/
 │   └── __init__.py
 ├── pages/                     # Page Object Models
 │   ├── base_page.py          # בסיס לכל העמודים
+│   ├── login_page.py         # 🆕 עמוד התחברות והזדהות
 │   ├── search_page.py        # עמוד חיפוש
 │   ├── product_page.py       # עמוד מוצר
 │   ├── cart_page.py          # עמוד סל קניות
@@ -73,6 +75,32 @@ e2e_automation/
 ```
 
 ## 🔑 פונקציות מרכזיות / Core Functions
+
+### 0. `authenticate(username=None, password=None)` ⭐ NEW
+
+**תיאור:** הזדהות למערכת (login או guest mode)
+
+**פרמטרים:**
+- `username` (str, optional): שם משתמש eBay
+- `password` (str, optional): סיסמה
+
+**החזרה:** `True` אם ההזדהות הצליחה
+
+**יכולות:**
+- תמיכה ב-Guest Mode (ברירת מחדל)
+- התחברות עם credentials
+- בדיקה אם המשתמש כבר מחובר
+- טיפול בשגיאות login
+- צילומי מסך בכל שלב
+
+**דוגמאות:**
+```python
+# Guest mode (ברירת מחדל)
+automation.authenticate()
+
+# Login with credentials
+automation.authenticate("user@example.com", "password123")
+```
 
 ### 1. `search_items_by_name_under_price(query, max_price, limit=5)`
 

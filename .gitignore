@@ -12,8 +12,18 @@ ENV/
 .allure_results/
 allure-results/
 allure-report/
-screenshots/
-reports/
+
+# Allow sample screenshots and reports for submission
+# But ignore the full directories during development
+screenshots/*
+!screenshots/.gitkeep
+!screenshots/sample_*.png
+!screenshots/README.md
+
+reports/*
+!reports/.gitkeep
+!reports/sample_report.html
+!reports/README.md
 *.log
 .DS_Store
 playwright-report/

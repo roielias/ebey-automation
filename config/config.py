@@ -13,6 +13,11 @@ class Config:
     # Application URLs
     BASE_URL = os.getenv('BASE_URL', 'https://www.ebay.com')
     
+    # Authentication (optional - defaults to guest mode)
+    EBAY_USERNAME = os.getenv('EBAY_USERNAME', '')
+    EBAY_PASSWORD = os.getenv('EBAY_PASSWORD', '')
+    USE_GUEST_MODE = os.getenv('USE_GUEST_MODE', 'True').lower() == 'true'
+    
     # Browser settings
     BROWSER = os.getenv('BROWSER', 'chromium')  # chromium, firefox, webkit
     HEADLESS = os.getenv('HEADLESS', 'False').lower() == 'true'

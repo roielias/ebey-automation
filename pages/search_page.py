@@ -18,16 +18,17 @@ class SearchPage(BasePage):
     SEARCH_BOX = "input[type='text'][placeholder*='Search'], input#gh-ac"
     SEARCH_BUTTON = "input[type='submit'][value='Search'], button#gh-btn"
     
-    # Results
-    SEARCH_RESULTS_ITEMS = "//li[contains(@class, 's-item') or contains(@class, 'srp-results')]//div[@class='s-item__info' or @class='s-item__wrapper']"
-    ITEM_TITLE = ".//h3[contains(@class, 's-item__title')]"
-    ITEM_PRICE = ".//span[contains(@class, 's-item__price')]"
-    ITEM_LINK = ".//a[contains(@class, 's-item__link')]"
+    # Results - Updated selectors for eBay
+    SEARCH_RESULTS_ITEMS = "//li[contains(@class, 's-item') and not(contains(@class, 's-item--watch-at-corner'))]"
+    ITEM_TITLE = ".//div[@class='s-item__title']//span[@role='heading']"
+    ITEM_PRICE = ".//span[@class='s-item__price']"
+    ITEM_LINK = ".//a[@class='s-item__link']"
     
     # Alternative selectors
-    ALT_SEARCH_RESULTS = "ul.srp-results li.s-item"
+    ALT_SEARCH_RESULTS = "ul.srp-results li.s-item:not(.s-item--watch-at-corner)"
     ALT_ITEM_PRICE = "span.s-item__price"
     ALT_ITEM_LINK = "a.s-item__link"
+    ALT_ITEM_TITLE = "div.s-item__title span"
     
     # Filters
     PRICE_MIN_INPUT = "input[aria-label*='Minimum Value'], input[name*='_udlo']"
@@ -137,8 +138,9 @@ class SearchPage(BasePage):
         """
         items = []
         page_number = 1
+        MAX_PAGES = 10  # Safety limit to prevent infinite loops
         
-        while len(items) < limit:
+        while len(items) < limit and page_number <= MAX_PAGES:
             logger.info(f"Processing page {page_number}, found {len(items)} items so far")
             
             # Wait for results to load
@@ -213,6 +215,11 @@ class SearchPage(BasePage):
                 # Check if we have enough items or if there's no next page
                 if len(items) >= limit:
                     logger.info(f"Collected {len(items)} items, reaching limit")
+                    break
+                
+                # Check max pages safety limit
+                if page_number >= MAX_PAGES:
+                    logger.warning(f"Reached maximum page limit ({MAX_PAGES}), stopping search")
                     break
                 
                 # Try to go to next page
