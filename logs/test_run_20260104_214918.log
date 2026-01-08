@@ -1,0 +1,9 @@
+2026-01-04 21:49:19 - conftest - INFO - ================================================================================
+2026-01-04 21:49:19 - conftest - INFO - Starting Test Execution
+2026-01-04 21:49:19 - conftest - INFO - ================================================================================
+2026-01-04 21:49:19 - conftest - INFO - Base URL: https://www.ebay.com
+2026-01-04 21:49:19 - conftest - INFO - Browser: chromium
+2026-01-04 21:49:19 - conftest - INFO - Headless: False
+2026-01-04 21:49:19 - utils.data_reader - INFO - Successfully loaded JSON data from C:\Users\V0040531\e2e_automation\data\test_data.json
+2026-01-04 21:49:19 - utils.data_reader - INFO - Successfully loaded YAML data from C:\Users\V0040531\e2e_automation\data\test_data.yaml
+2026-01-04 21:49:27 - conftest - INFO - Launching chromium browser

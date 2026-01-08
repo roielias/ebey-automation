@@ -1,0 +1,76 @@
+[32mINFO    [0m conftest:conftest.py:45 Launching chromium browser
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:38 Initializing E-commerce Automation for https://www.ebay.com
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:66 ================================================================================
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:67 CORE FUNCTION 0: authenticate
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:68 ================================================================================
+[32mINFO    [0m pages.login_page:login_page.py:143 ================================================================================
+[32mINFO    [0m pages.login_page:login_page.py:144 CORE FUNCTION: authenticate (Guest Mode)
+[32mINFO    [0m pages.login_page:login_page.py:145 Continuing as guest - no authentication required
+[32mINFO    [0m pages.login_page:login_page.py:146 ================================================================================
+[32mINFO    [0m pages.login_page:login_page.py:150 ✓ Guest mode enabled - proceeding without login
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:82 ================================================================================
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:108 ================================================================================
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:109 CORE FUNCTION 1: search_items_by_name_under_price
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:110 Query: 'phone case', Max Price: $50, Limit: 3
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:111 ================================================================================
+[32mINFO    [0m pages.search_page:search_page.py:280 === Starting search: query='phone case', max_price=$50, limit=3 ===
+[32mINFO    [0m pages.search_page:search_page.py:52 Searching for: phone case
+[32mINFO    [0m pages.base_page:base_page.py:103 Waiting for element input[type='text'][placeholder*='Search'], input#gh-ac to be visible
+[32mINFO    [0m pages.base_page:base_page.py:59 Filling field input[type='text'][placeholder*='Search'], input#gh-ac with: phone case
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: input[type='submit'][value='Search'], button#gh-btn
+[32mINFO    [0m pages.base_page:base_page.py:190 Pressing key 'Enter' on element: input[type='text'][placeholder*='Search'], input#gh-ac
+[32mINFO    [0m utils.screenshot_helper:screenshot_helper.py:35 Screenshot saved: C:\Users\V0040531\e2e_automation\screenshots\search_results_phone case_20260108_100253.png
+[32mINFO    [0m pages.search_page:search_page.py:80 Applying price filter: min=None, max=50
+[32mINFO    [0m pages.base_page:base_page.py:59 Filling field input[aria-label*='Maximum Value'], input[name*='_udhi'] with: 50
+[32mINFO    [0m pages.search_page:search_page.py:144 Processing page 1, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:155 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:158 Found 0 result elements on page 1
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:258 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:144 Processing page 2, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:155 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:158 Found 0 result elements on page 2
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:258 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:144 Processing page 3, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:155 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:158 Found 0 result elements on page 3
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:258 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:144 Processing page 4, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:155 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:158 Found 0 result elements on page 4
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:258 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:144 Processing page 5, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:155 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:158 Found 0 result elements on page 5
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:258 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:144 Processing page 6, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:155 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:158 Found 0 result elements on page 6
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:258 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:144 Processing page 7, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:155 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:158 Found 0 result elements on page 7
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:258 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:144 Processing page 8, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:155 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:158 Found 0 result elements on page 8
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:258 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:144 Processing page 9, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:155 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:158 Found 0 result elements on page 9
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:258 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:144 Processing page 10, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:155 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:158 Found 0 result elements on page 10
+[33mWARNING [0m pages.search_page:search_page.py:222 Reached maximum page limit (10), stopping search
+[32mINFO    [0m pages.search_page:search_page.py:297 === Search complete: found 0 items ===
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:115 Search completed: Found 0 items
+[32mINFO    [0m conftest:conftest.py:58 Closing browser

@@ -1,0 +1,291 @@
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:35 Initializing E-commerce Automation for https://www.ebay.com
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:62 ================================================================================
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:63 CORE FUNCTION 1: search_items_by_name_under_price
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:64 Query: 'laptop', Max Price: $500, Limit: 3
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:65 ================================================================================
+[32mINFO    [0m pages.search_page:search_page.py:273 === Starting search: query='laptop', max_price=$500, limit=3 ===
+[32mINFO    [0m pages.search_page:search_page.py:51 Searching for: laptop
+[32mINFO    [0m pages.base_page:base_page.py:103 Waiting for element input[type='text'][placeholder*='Search'], input#gh-ac to be visible
+[32mINFO    [0m pages.base_page:base_page.py:59 Filling field input[type='text'][placeholder*='Search'], input#gh-ac with: laptop
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: input[type='submit'][value='Search'], button#gh-btn
+[32mINFO    [0m pages.base_page:base_page.py:190 Pressing key 'Enter' on element: input[type='text'][placeholder*='Search'], input#gh-ac
+[32mINFO    [0m utils.screenshot_helper:screenshot_helper.py:35 Screenshot saved: C:\Users\V0040531\e2e_automation\screenshots\search_results_laptop_20260104_191305.png
+[32mINFO    [0m pages.search_page:search_page.py:79 Applying price filter: min=None, max=500
+[32mINFO    [0m pages.base_page:base_page.py:59 Filling field input[aria-label*='Maximum Value'], input[name*='_udhi'] with: 500
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 1, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 1
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 2, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 2
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 3, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 3
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 4, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 4
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 5, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 5
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 6, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 6
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 7, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 7
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 8, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 8
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 9, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 9
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 10, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 10
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 11, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 11
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 12, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 12
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 13, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 13
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 14, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 14
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 15, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 15
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 16, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 16
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 17, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 17
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 18, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 18
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 19, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 19
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 20, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 20
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 21, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 21
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 22, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 22
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 23, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 23
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 24, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 24
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 25, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 25
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 26, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 26
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 27, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 27
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 28, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 28
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 29, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 29
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 30, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 30
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 31, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 31
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 32, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 32
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 33, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 33
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 34, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 34
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 35, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 35
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 36, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 36
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 37, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 37
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 38, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 38
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 39, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 39
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 40, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 40
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 41, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 41
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 42, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 42
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 43, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 43
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 44, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 44
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 45, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 45
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 46, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 46
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 47, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 47
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 48, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 48
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 49, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 49
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 50, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 50
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 51, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 51
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 52, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 52
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 53, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 53
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[32mINFO    [0m pages.search_page:search_page.py:251 Successfully navigated to next page
+[32mINFO    [0m pages.search_page:search_page.py:142 Processing page 54, found 0 items so far
+[32mINFO    [0m pages.search_page:search_page.py:153 Trying alternative selector for results
+[32mINFO    [0m pages.search_page:search_page.py:156 Found 0 result elements on page 54
+[32mINFO    [0m pages.base_page:base_page.py:46 Clicking element: a.pagination__next, a[aria-label='Next']
+[33mWARNING [0m pages.search_page:search_page.py:258 Could not navigate to next page: Timeout 60000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+[32mINFO    [0m pages.search_page:search_page.py:220 No more pages available
+[32mINFO    [0m pages.search_page:search_page.py:290 === Search complete: found 0 items ===
+[32mINFO    [0m ecommerce_automation:ecommerce_automation.py:69 Search completed: Found 0 items

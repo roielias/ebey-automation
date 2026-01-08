@@ -1,0 +1,88 @@
+2026-01-08 09:57:48 - conftest - INFO - ================================================================================
+2026-01-08 09:57:48 - conftest - INFO - Starting Test Execution
+2026-01-08 09:57:48 - conftest - INFO - ================================================================================
+2026-01-08 09:57:48 - conftest - INFO - Base URL: https://www.ebay.com
+2026-01-08 09:57:48 - conftest - INFO - Browser: chromium
+2026-01-08 09:57:48 - conftest - INFO - Headless: False
+2026-01-08 09:57:48 - utils.data_reader - INFO - Successfully loaded JSON data from C:\Users\V0040531\e2e_automation\data\test_data.json
+2026-01-08 09:57:48 - utils.data_reader - INFO - Successfully loaded YAML data from C:\Users\V0040531\e2e_automation\data\test_data.yaml
+2026-01-08 09:57:55 - conftest - INFO - Launching chromium browser
+2026-01-08 09:57:56 - ecommerce_automation - INFO - Initializing E-commerce Automation for https://www.ebay.com
+2026-01-08 09:58:23 - ecommerce_automation - INFO - ================================================================================
+2026-01-08 09:58:23 - ecommerce_automation - INFO - CORE FUNCTION 0: authenticate
+2026-01-08 09:58:23 - ecommerce_automation - INFO - ================================================================================
+2026-01-08 09:58:23 - pages.login_page - INFO - ================================================================================
+2026-01-08 09:58:23 - pages.login_page - INFO - CORE FUNCTION: authenticate (Guest Mode)
+2026-01-08 09:58:23 - pages.login_page - INFO - Continuing as guest - no authentication required
+2026-01-08 09:58:23 - pages.login_page - INFO - ================================================================================
+2026-01-08 09:58:23 - pages.login_page - INFO - ✓ Guest mode enabled - proceeding without login
+2026-01-08 09:58:23 - ecommerce_automation - INFO - ================================================================================
+2026-01-08 09:58:23 - ecommerce_automation - INFO - ================================================================================
+2026-01-08 09:58:23 - ecommerce_automation - INFO - CORE FUNCTION 1: search_items_by_name_under_price
+2026-01-08 09:58:23 - ecommerce_automation - INFO - Query: 'phone case', Max Price: $50, Limit: 3
+2026-01-08 09:58:23 - ecommerce_automation - INFO - ================================================================================
+2026-01-08 09:58:23 - pages.search_page - INFO - === Starting search: query='phone case', max_price=$50, limit=3 ===
+2026-01-08 09:58:23 - pages.search_page - INFO - Searching for: phone case
+2026-01-08 09:58:23 - pages.base_page - INFO - Waiting for element input[type='text'][placeholder*='Search'], input#gh-ac to be visible
+2026-01-08 09:58:23 - pages.base_page - INFO - Filling field input[type='text'][placeholder*='Search'], input#gh-ac with: phone case
+2026-01-08 09:58:23 - pages.base_page - INFO - Clicking element: input[type='submit'][value='Search'], button#gh-btn
+2026-01-08 09:58:53 - pages.base_page - INFO - Pressing key 'Enter' on element: input[type='text'][placeholder*='Search'], input#gh-ac
+2026-01-08 09:59:07 - utils.screenshot_helper - INFO - Screenshot saved: C:\Users\V0040531\e2e_automation\screenshots\search_results_phone case_20260108_095905.png
+2026-01-08 09:59:07 - pages.search_page - INFO - Applying price filter: min=None, max=50
+2026-01-08 09:59:08 - pages.base_page - INFO - Filling field input[aria-label*='Maximum Value'], input[name*='_udhi'] with: 50
+2026-01-08 09:59:08 - pages.search_page - INFO - Processing page 1, found 0 items so far
+2026-01-08 09:59:10 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-08 09:59:10 - pages.search_page - INFO - Found 0 result elements on page 1
+2026-01-08 09:59:10 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-08 09:59:19 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-08 09:59:19 - pages.search_page - INFO - Processing page 2, found 0 items so far
+2026-01-08 09:59:21 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-08 09:59:21 - pages.search_page - INFO - Found 0 result elements on page 2
+2026-01-08 09:59:21 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-08 09:59:31 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-08 09:59:31 - pages.search_page - INFO - Processing page 3, found 0 items so far
+2026-01-08 09:59:33 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-08 09:59:33 - pages.search_page - INFO - Found 0 result elements on page 3
+2026-01-08 09:59:33 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-08 09:59:41 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-08 09:59:41 - pages.search_page - INFO - Processing page 4, found 0 items so far
+2026-01-08 09:59:43 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-08 09:59:43 - pages.search_page - INFO - Found 0 result elements on page 4
+2026-01-08 09:59:43 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-08 09:59:51 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-08 09:59:51 - pages.search_page - INFO - Processing page 5, found 0 items so far
+2026-01-08 09:59:53 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-08 09:59:53 - pages.search_page - INFO - Found 0 result elements on page 5
+2026-01-08 09:59:53 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-08 10:00:02 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-08 10:00:02 - pages.search_page - INFO - Processing page 6, found 0 items so far
+2026-01-08 10:00:04 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-08 10:00:04 - pages.search_page - INFO - Found 0 result elements on page 6
+2026-01-08 10:00:04 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-08 10:00:43 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-08 10:00:43 - pages.search_page - INFO - Processing page 7, found 0 items so far
+2026-01-08 10:00:45 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-08 10:00:45 - pages.search_page - INFO - Found 0 result elements on page 7
+2026-01-08 10:00:45 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-08 10:00:55 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-08 10:00:55 - pages.search_page - INFO - Processing page 8, found 0 items so far
+2026-01-08 10:00:57 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-08 10:00:57 - pages.search_page - INFO - Found 0 result elements on page 8
+2026-01-08 10:00:57 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-08 10:01:10 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-08 10:01:10 - pages.search_page - INFO - Processing page 9, found 0 items so far
+2026-01-08 10:01:12 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-08 10:01:12 - pages.search_page - INFO - Found 0 result elements on page 9
+2026-01-08 10:01:12 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-08 10:01:21 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-08 10:01:21 - pages.search_page - INFO - Processing page 10, found 0 items so far
+2026-01-08 10:01:23 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-08 10:01:23 - pages.search_page - INFO - Found 0 result elements on page 10
+2026-01-08 10:01:23 - pages.search_page - WARNING - Reached maximum page limit (10), stopping search
+2026-01-08 10:01:23 - pages.search_page - INFO - === Search complete: found 0 items ===
+2026-01-08 10:01:23 - ecommerce_automation - INFO - Search completed: Found 0 items
+2026-01-08 10:01:24 - conftest - INFO - Closing browser
+2026-01-08 10:01:24 - conftest - INFO - ================================================================================
+2026-01-08 10:01:24 - conftest - INFO - Test Execution Completed
+2026-01-08 10:01:24 - conftest - INFO - Exit Status: 0
+2026-01-08 10:01:24 - conftest - INFO - ================================================================================

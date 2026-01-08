@@ -1,0 +1,15 @@
+2026-01-08 10:01:55 - conftest - INFO - ================================================================================
+2026-01-08 10:01:55 - conftest - INFO - Starting Test Execution
+2026-01-08 10:01:55 - conftest - INFO - ================================================================================
+2026-01-08 10:01:55 - conftest - INFO - Base URL: https://www.ebay.com
+2026-01-08 10:01:55 - conftest - INFO - Browser: chromium
+2026-01-08 10:01:55 - conftest - INFO - Headless: False
+2026-01-08 10:01:56 - utils.data_reader - INFO - Successfully loaded JSON data from C:\Users\V0040531\e2e_automation\data\test_data.json
+2026-01-08 10:01:56 - utils.data_reader - INFO - Successfully loaded YAML data from C:\Users\V0040531\e2e_automation\data\test_data.yaml
+2026-01-08 10:01:56 - conftest - INFO - Launching chromium browser
+2026-01-08 10:02:55 - utils.screenshot_helper - INFO - Screenshot saved: C:\Users\V0040531\e2e_automation\screenshots\search_results_phone case_20260108_100253.png
+2026-01-08 10:04:45 - conftest - INFO - Closing browser
+2026-01-08 10:04:45 - conftest - INFO - ================================================================================
+2026-01-08 10:04:45 - conftest - INFO - Test Execution Completed
+2026-01-08 10:04:45 - conftest - INFO - Exit Status: 0
+2026-01-08 10:04:45 - conftest - INFO - ================================================================================

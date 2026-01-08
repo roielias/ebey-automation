@@ -1,0 +1,42 @@
+2026-01-04 19:27:58 - ecommerce_automation - INFO - Initializing E-commerce Automation for https://www.ebay.com
+2026-01-04 19:28:13 - ecommerce_automation - INFO - ================================================================================
+2026-01-04 19:28:13 - ecommerce_automation - INFO - CORE FUNCTION 1: search_items_by_name_under_price
+2026-01-04 19:28:13 - ecommerce_automation - INFO - Query: 'headphones', Max Price: $100, Limit: 4
+2026-01-04 19:28:13 - ecommerce_automation - INFO - ================================================================================
+2026-01-04 19:28:13 - pages.search_page - INFO - === Starting search: query='headphones', max_price=$100, limit=4 ===
+2026-01-04 19:28:13 - pages.search_page - INFO - Searching for: headphones
+2026-01-04 19:28:13 - pages.base_page - INFO - Waiting for element input[type='text'][placeholder*='Search'], input#gh-ac to be visible
+2026-01-04 19:28:13 - pages.base_page - INFO - Filling field input[type='text'][placeholder*='Search'], input#gh-ac with: headphones
+2026-01-04 19:28:13 - pages.base_page - INFO - Clicking element: input[type='submit'][value='Search'], button#gh-btn
+2026-01-04 19:28:43 - pages.base_page - INFO - Pressing key 'Enter' on element: input[type='text'][placeholder*='Search'], input#gh-ac
+2026-01-04 19:28:56 - utils.screenshot_helper - INFO - Screenshot saved: C:\Users\V0040531\e2e_automation\screenshots\search_results_headphones_20260104_192854.png
+2026-01-04 19:28:56 - pages.search_page - INFO - Applying price filter: min=None, max=100
+2026-01-04 19:28:56 - pages.base_page - INFO - Filling field input[aria-label*='Maximum Value'], input[name*='_udhi'] with: 100
+2026-01-04 19:28:57 - pages.search_page - INFO - Processing page 1, found 0 items so far
+2026-01-04 19:28:59 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:28:59 - pages.search_page - INFO - Found 0 result elements on page 1
+2026-01-04 19:28:59 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:29:06 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:29:06 - pages.search_page - INFO - Processing page 2, found 0 items so far
+2026-01-04 19:29:08 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:29:08 - pages.search_page - INFO - Found 0 result elements on page 2
+2026-01-04 19:29:08 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:29:14 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:29:14 - pages.search_page - INFO - Processing page 3, found 0 items so far
+2026-01-04 19:29:16 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:29:16 - pages.search_page - INFO - Found 0 result elements on page 3
+2026-01-04 19:29:16 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:29:22 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:29:22 - pages.search_page - INFO - Processing page 4, found 0 items so far
+2026-01-04 19:29:25 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:29:25 - pages.search_page - INFO - Found 0 result elements on page 4
+2026-01-04 19:29:25 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:30:28 - pages.search_page - WARNING - Could not navigate to next page: Timeout 60000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+2026-01-04 19:30:28 - pages.search_page - INFO - No more pages available
+2026-01-04 19:30:28 - pages.search_page - INFO - === Search complete: found 0 items ===
+2026-01-04 19:30:28 - ecommerce_automation - INFO - Search completed: Found 0 items
+2026-01-04 19:30:30 - utils.screenshot_helper - INFO - Screenshot saved: C:\Users\V0040531\e2e_automation\screenshots\failure_test_full_e2e_scenario[test_data2]_20260104_193028.png

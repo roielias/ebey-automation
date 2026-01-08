@@ -9,22 +9,15 @@ ENV/
 .venv
 .env
 .pytest_cache/
-.allure_results/
-allure-results/
-allure-report/
 
-# Allow sample screenshots and reports for submission
-# But ignore the full directories during development
-screenshots/*
-!screenshots/.gitkeep
-!screenshots/sample_*.png
-!screenshots/README.md
+# Allow reports and screenshots for submission
+# screenshots/ - ALLOWED (for submission)
+# reports/ - ALLOWED (for submission)
+# allure-results/ - ALLOWED (for submission)
 
-reports/*
-!reports/.gitkeep
-!reports/sample_report.html
-!reports/README.md
-*.log
+# Only ignore these development files
 .DS_Store
 playwright-report/
 test-results/
+.allure_results/
+allure-report/

@@ -1,0 +1,79 @@
+2026-01-04 19:30:31 - ecommerce_automation - INFO - Initializing E-commerce Automation for https://www.ebay.com
+2026-01-04 19:30:54 - ecommerce_automation - INFO - ================================================================================
+2026-01-04 19:30:54 - ecommerce_automation - INFO - CORE FUNCTION 1: search_items_by_name_under_price
+2026-01-04 19:30:54 - ecommerce_automation - INFO - Query: 'phone case', Max Price: $50, Limit: 3
+2026-01-04 19:30:54 - ecommerce_automation - INFO - ================================================================================
+2026-01-04 19:30:54 - pages.search_page - INFO - === Starting search: query='phone case', max_price=$50, limit=3 ===
+2026-01-04 19:30:54 - pages.search_page - INFO - Searching for: phone case
+2026-01-04 19:30:54 - pages.base_page - INFO - Waiting for element input[type='text'][placeholder*='Search'], input#gh-ac to be visible
+2026-01-04 19:30:54 - pages.base_page - INFO - Filling field input[type='text'][placeholder*='Search'], input#gh-ac with: phone case
+2026-01-04 19:30:54 - pages.base_page - INFO - Clicking element: input[type='submit'][value='Search'], button#gh-btn
+2026-01-04 19:31:24 - pages.base_page - INFO - Pressing key 'Enter' on element: input[type='text'][placeholder*='Search'], input#gh-ac
+2026-01-04 19:32:08 - utils.screenshot_helper - INFO - Screenshot saved: C:\Users\V0040531\e2e_automation\screenshots\search_results_phone case_20260104_193206.png
+2026-01-04 19:32:08 - pages.search_page - INFO - Applying price filter: min=None, max=50
+2026-01-04 19:32:08 - pages.base_page - INFO - Filling field input[aria-label*='Maximum Value'], input[name*='_udhi'] with: 50
+2026-01-04 19:32:08 - pages.search_page - INFO - Processing page 1, found 0 items so far
+2026-01-04 19:32:10 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:32:10 - pages.search_page - INFO - Found 0 result elements on page 1
+2026-01-04 19:32:10 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:32:25 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:32:25 - pages.search_page - INFO - Processing page 2, found 0 items so far
+2026-01-04 19:32:27 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:32:27 - pages.search_page - INFO - Found 0 result elements on page 2
+2026-01-04 19:32:27 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:32:38 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:32:38 - pages.search_page - INFO - Processing page 3, found 0 items so far
+2026-01-04 19:32:40 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:32:40 - pages.search_page - INFO - Found 0 result elements on page 3
+2026-01-04 19:32:40 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:32:51 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:32:51 - pages.search_page - INFO - Processing page 4, found 0 items so far
+2026-01-04 19:32:53 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:32:53 - pages.search_page - INFO - Found 0 result elements on page 4
+2026-01-04 19:32:53 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:33:02 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:33:02 - pages.search_page - INFO - Processing page 5, found 0 items so far
+2026-01-04 19:33:04 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:33:04 - pages.search_page - INFO - Found 0 result elements on page 5
+2026-01-04 19:33:04 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:33:14 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:33:14 - pages.search_page - INFO - Processing page 6, found 0 items so far
+2026-01-04 19:33:16 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:33:16 - pages.search_page - INFO - Found 0 result elements on page 6
+2026-01-04 19:33:16 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:33:28 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:33:28 - pages.search_page - INFO - Processing page 7, found 0 items so far
+2026-01-04 19:33:30 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:33:30 - pages.search_page - INFO - Found 0 result elements on page 7
+2026-01-04 19:33:30 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:33:40 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:33:40 - pages.search_page - INFO - Processing page 8, found 0 items so far
+2026-01-04 19:33:42 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:33:42 - pages.search_page - INFO - Found 0 result elements on page 8
+2026-01-04 19:33:42 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:33:58 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:33:58 - pages.search_page - INFO - Processing page 9, found 0 items so far
+2026-01-04 19:34:00 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:34:00 - pages.search_page - INFO - Found 0 result elements on page 9
+2026-01-04 19:34:00 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:34:13 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:34:13 - pages.search_page - INFO - Processing page 10, found 0 items so far
+2026-01-04 19:34:15 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:34:15 - pages.search_page - INFO - Found 0 result elements on page 10
+2026-01-04 19:34:15 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:34:35 - pages.search_page - INFO - Successfully navigated to next page
+2026-01-04 19:34:35 - pages.search_page - INFO - Processing page 11, found 0 items so far
+2026-01-04 19:34:37 - pages.search_page - INFO - Trying alternative selector for results
+2026-01-04 19:34:37 - pages.search_page - INFO - Found 0 result elements on page 11
+2026-01-04 19:34:37 - pages.base_page - INFO - Clicking element: a.pagination__next, a[aria-label='Next']
+2026-01-04 19:35:41 - pages.search_page - WARNING - Could not navigate to next page: Timeout 60000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+2026-01-04 19:35:41 - pages.search_page - INFO - No more pages available
+2026-01-04 19:35:41 - pages.search_page - INFO - === Search complete: found 0 items ===
+2026-01-04 19:35:41 - ecommerce_automation - INFO - Search completed: Found 0 items
